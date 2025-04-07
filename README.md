@@ -17,7 +17,14 @@ It combines web scraping, semantic search (FAISS), LLM-based reranking (GROQ API
 ---
 
 ## 🗂 Repository Structure  
-. ├── flask_api_app.py # Flask application exposing /recommend endpoint ├── demo.py # Streamlit front-end for interactive querying ├── shl_dataframe.pkl # Scraped SHL catalog data (pickled DataFrame) ├── shl_index.faiss # FAISS index file for vector search ├── requirements.txt # Python dependencies ├── Procfile # For Render.com deployment ├── .env.example # Example environment variables └── README.md # This file
+├── flask_api_app.py # Flask application exposing /recommend endpoint
+├── demo.py # Streamlit front-end for interactive querying
+├── shl_dataframe.pkl # Scraped SHL catalog data (pickled DataFrame)
+├── shl_index.faiss # FAISS index file for vector search
+├── requirements.txt # Python dependencies
+├── Procfile # For Render.com deployment
+├── .env.example # Example environment variables
+└── README.md # This file
 ## 🔍 How It Works
 Scraping: Web-scrapes SHL's catalog and individual assessment pages (~150) to gather names, links, duration, description, remote testing support, and adaptive/IRT availability.
 
