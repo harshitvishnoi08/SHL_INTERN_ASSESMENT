@@ -6,5 +6,5 @@ python-dotenv
 requests
 gunicorn
 torch==2.0.0
-transformers==4.28.1
-huggingface-hub==0.4.0  
+transformers==4.26.1  
+huggingface-hub==0.14.1  
