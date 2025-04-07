@@ -20,4 +20,5 @@ fastapi
 uvicorn
 langserve
 flask
+gunicorn
 
