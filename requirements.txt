@@ -16,3 +16,4 @@ uvicorn
 langserve
 flask
 gunicorn 
+transformers>=4.31.0
