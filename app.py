@@ -22,7 +22,7 @@ with open("shl_dataframe.pkl", "rb") as f:
     df = pickle.load(f)
 
 # Load embedding model
-model = SentenceTransformer("all-MiniLM-L6-v2")
+model = SentenceTransformer("all-MiniLM-L6-v2", device="cpu")
 
 # Helper: retrieve candidates
 def retrieve_candidates(query, top_k=20):
