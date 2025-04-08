@@ -16,7 +16,7 @@ session.mount("https://", adapter)
 
 # App config
 st.set_page_config(page_title="SHL Assessment Recommender", layout="centered")
-API_URL = "https://your-service-name.onrender.com/recommend"  # UPDATE THIS
+API_URL = "http://localhost:5000/recommend" # UPDATE THIS
 
 # UI components
 st.title("🧠 SHL Assessment Recommender")
