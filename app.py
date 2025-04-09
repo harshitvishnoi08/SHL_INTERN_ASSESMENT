@@ -85,7 +85,7 @@ def recommend_api():
     items = "\n".join(
         f"{i+1}. {c['name']} — {c['description'][:100]}..."
         for i, c in enumerate(candidates)
-    
+    )
     prompt = f"""You are an expert assessment recommender. The hiring need is:
     "{query}"
     
