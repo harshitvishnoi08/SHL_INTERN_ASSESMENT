@@ -12,3 +12,4 @@ huggingface-hub==0.14.1
 apscheduler==3.10.4
 pandas
 uvicorn
+asgriref
