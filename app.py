@@ -7,7 +7,6 @@ import os
 import requests
 from dotenv import load_dotenv
 from apscheduler.schedulers.background import BackgroundScheduler
-from asgiref.wsgi import WsgiToAsgi
 
 
 # Load environment variables
@@ -118,6 +117,3 @@ def recommend_api():
         "query": query,
         "results": [candidates[i] for i in indices[:rerank_k]]
     })
-
-asgi_app = WsgiToAsgi(app)
-
