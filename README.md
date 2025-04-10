@@ -26,7 +26,6 @@ It combines web scraping, semantic search (FAISS), LLM-based reranking (GROQ API
 - **Flask API:**  
   The Flask API is deployed on Render and is available at:  
   **[API Link](https://shl-api-4k8f.onrender.com)**  
-  (Make sure to update this link with your actual API endpoint)
 
 - **Streamlit App (demo.py):**  
   The Streamlit app is hosted on Streamlit Community Cloud and can be accessed at:  
